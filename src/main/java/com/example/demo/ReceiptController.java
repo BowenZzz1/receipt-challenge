@@ -10,6 +10,7 @@ import java.util.*;
 @RequestMapping("/receipts")
 public class ReceiptController {
 
+    // id -> points
     private final Map<String, Integer> receiptPoints = new HashMap<>();
 
     @PostMapping("/process")
